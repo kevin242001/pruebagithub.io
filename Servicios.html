@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>TECNOLOGY FRIENDS</title>
+  <meta name="title" content="Adex">
+  <meta name="description" content="This is a business agency html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: navy; /* Fondo azul marino */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .centered-image {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  </style>
+
+<body> 
+    
+    <header class="header" data-header>
+        <div class="container">
+    
+          <a href="#" class="logo">
+            <img src="logo.png" width="104" height="24" alt="Adex home" class="logo-light">
+    
+            <img src="logo.png" width="104" height="24" alt="Adex home" class="logo-dark">
+          </a>
+    
+          <nav class="navbar" data-navbar>
+    
+            <div class="navbar-top">
+              <a href="#" class="logo">
+                <img src="logo.png" width="74" height="24" alt="Adex home">
+              </a>
+    
+              <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+    
+            <ul class="navbar-list">
+    
+              <li>
+                <a href="index.html" class="navbar-link">INICIO</a>
+              </li>
+    
+              <li>
+                <a href="Servicios.html" class="navbar-link">SERVICIOS</a>
+              </li>
+    
+              <li>
+                <a href="licencias.html" class="navbar-link">LICENCIAS</a>
+              </li>
+    
+              <li>
+                <a href="#" class="navbar-link">PRODUCTOS</a>
+              </li>
+    
+              
+            </ul>
+    
+            <div class="wrapper">
+              <a href="mailto:info@email.com" class="contact-link">correo direccional</a>
+    
+              <a href="tel:001234567890" class="contact-link">00 (123) 456 78 90</a>
+            </div>
+    
+            <ul class="social-list">
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+    
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+    
+              
+    
+            </ul>
+    
+          </nav>
+    
+          <a href="#" class="btn btn-primary">CONTACTENOS</a>
+    
+          <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+    
+          <div class="overlay" data-nav-toggler data-overlay></div>
+    
+        </div>
+      </header>
+         
+      <main>
+        <article>
+          <!-- Tu contenido principal aquí -->
+          <img src="tu-imagen-grande.jpg" alt="Imagen grande" class="centered-image">
+        </article>
+      </main>
+<!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+       
+</body>
+</html>

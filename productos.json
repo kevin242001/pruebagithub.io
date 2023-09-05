@@ -1,0 +1,67 @@
+[
+    
+        {
+            "id": "abrigo-01",
+            "titulo": "windows 10 home",
+            "imagen": "windows 10 home.jpg",
+            "categoria": {
+                "nombre": "windows-10",
+                "id": "abrigos"
+            },
+            "precio": 10.00 
+        },
+        {
+            "id": "proyecto-x-02",
+            "titulo": "windows 10 Profesional",
+            "imagen": "windows-10-profesional.jpg",
+            "categoria": {
+                "nombre": "proyecto x",
+                "id": "proyecto-x"
+            },
+            "precio": 10.00 
+        },
+    
+  
+    {
+        "id": "camiseta-01",
+        "titulo": "windows 11 home",
+        "imagen": "",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 15.00
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "windows 10 Profesional",
+        "imagen": "",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000
+    },
+   
+    {
+        "id": "pantalon-03",
+        "titulo": "Office 2021 profesional",
+        "imagen": "",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "Office 2021 ",
+        "imagen": "",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    }
+    
+]
